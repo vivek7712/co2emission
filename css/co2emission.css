@@ -25,6 +25,12 @@ p { color: black; font-family: 'Carme', sans-serif; font-size: 25px; line-height
 img{
 	width: 1499px;
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
 footer{
 	background-color: #d14635;
